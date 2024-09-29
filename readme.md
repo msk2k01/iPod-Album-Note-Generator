@@ -11,7 +11,7 @@ Fields included in the output includes:
 # Usage
 [Running this script requires Python.](https://www.freecodecamp.org/news/check-python-version-how-to-check-py-in-mac-windows-and-linux/)
 
-Run `python /path/to/script/ipod-album-note-maker.py path/to/album/folder` from the terminal. The script will pick up on any FLAC or ALAC (extension .m4a) in the given folder.
+Run `python /path/to/script/ipodAlbumNoteGenerator.py path/to/album/folder` from the terminal. The script will pick up on any FLAC or ALAC (extension .m4a) in the given folder.
 The text file will be placed in your current working directory at the time you executed the script.
 
 To see the note on your iPod:
@@ -73,7 +73,7 @@ Daft Punk ft. DJ Falcon
 # "Artist" Tag
 Some iPod syncing tools like foobar2000 allow remapping tag fields during iPod sync; one use case for this is to transfer "Album Artist" to "Artist" for easier organization by artist on older iPods which don't read the "Album Artist" tag field. However, this renders the original "Artist" field inacessible -- unideal for cases where, for example, the artist tag lists featured artists.
 
-This script writes the original "Arist" tag data into the text file, so it is visible on the iPod once again.
+This script writes the original "Arist" tag data into the text file, so it is accessible on the iPod once again.
 
 # References
 * https://wiki.yuo.be/dop:start
